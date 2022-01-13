@@ -10,7 +10,7 @@ In the project directory, run the following commands:
 
 Installs dependencies.
 
-### `touch .env && echo REACT_APP_PLAYBACK_URL="your-ivs-playback-url.m3u8" > .env`
+### Option: `touch .env && echo REACT_APP_PLAYBACK_URL="your-ivs-playback-url.m3u8" > .env`
 
 Sets playback url. As default, a test stream:
 [https://3d26876b73d7.us-west-2.playback.live-video.net/api/video/v1/us-west-2.913157848533.channel.rkCBS9iD1eyd.m3u8](https://3d26876b73d7.us-west-2.playback.live-video.net/api/video/v1/us-west-2.913157848533.channel.rkCBS9iD1eyd.m3u8)
@@ -64,3 +64,4 @@ Amazon Interactive Video Service (Amazon IVS) is a managed live streaming soluti
 - [Setting Up for Streaming with Amazon Interactive Video Service](https://aws.amazon.com/blogs/media/setting-up-for-streaming-with-amazon-ivs/)
 - [Learn more about Amazon IVS on IVS.rocks](https://ivs.rocks/)
 - [View more demos like this](https://ivs.rocks/examples)
+- [Amazon IVS Player SDK Documentation](https://aws.github.io/amazon-ivs-player-docs/1.6.1/web/index.html)
